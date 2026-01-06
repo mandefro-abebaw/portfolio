@@ -11,7 +11,7 @@ function Home() {
       <p className="gif" align="center">
         <a href="https://github.com/mandefro-abebaw">
           <img
-            src="https://user-images.githubusercontent.com/41234408/101987297-4473fb00-3cb9-11eb-9675-289ada4eef7e.gif"
+            src="public\assets\home.jpg"
             alt="Animated footer bars"
             width="100%"
             max-width="1024px"
@@ -38,7 +38,7 @@ function Home() {
 
       <div className="home-social">
         <a
-          href="https://www.linkedin.com/in/sai-pranavdhar-reddy-nalamalapu-038104206/"
+          href="#"
           className="home-social-icon"
         >
           <LinkedInIcon className="icon" />
