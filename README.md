@@ -2,7 +2,7 @@
 
 This repo is my Portfolio which is built using React, Django, and GraphQL.A Portfolio will provide a platform to showcase our blogs and the latest work that we had done
 
-<img width="1470" alt="image" src="public\assets\home.jpg">
+<img width="700" alt="image" src="public\assets\home.jpg">
 
 If you want to understand this repo better and use it follow the steps mentioned below
 
