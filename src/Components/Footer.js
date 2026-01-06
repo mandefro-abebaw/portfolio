@@ -13,7 +13,7 @@ function Footer() {
         <div className='footer'>
             <p className="footer-title">Mandefro</p>
             <div className="footer-social">
-                <a href="#" className="footer-icon"><LinkedInIcon/></a>
+                <a href="https://www.linkedin.com/mandefro-abebaw" className="footer-icon"><LinkedInIcon/></a>
                 <a href="https://t.me/Siparia" className="footer-icon"><TelegramIcon/></a>
                 <a href="https://twitter.com/manirmas6532new" className="footer-icon"><TwitterIcon/></a>
                 <a href="https://github.com/mandefro-abebaw" className="footer-icon"><GitHubIcon/></a>

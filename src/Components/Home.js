@@ -38,7 +38,7 @@ function Home() {
 
       <div className="home-social">
         <a
-          href="#"
+          href="https://www.linkedin.com/mandefro-abebaw"
           className="home-social-icon"
         >
           <LinkedInIcon className="icon" />
