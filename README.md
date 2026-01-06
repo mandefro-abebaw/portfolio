@@ -2,7 +2,7 @@
 
 This repo is my Portfolio which is built using React, Django, and GraphQL.A Portfolio will provide a platform to showcase our blogs and the latest work that we had done
 
-<img width="1470" alt="image" src="https://user-images.githubusercontent.com/73348574/216510502-707feb94-9e6b-43d4-9517-95ce645a2b6a.png">
+<img width="1470" alt="image" src="public\assets\home.jpg">
 
 If you want to understand this repo better and use it follow the steps mentioned below
 
@@ -89,7 +89,7 @@ Changes that need to be made for getting your data on the website are:
 
 ## Author ✍️
 
-1. <img src="https://avatars.githubusercontent.com/u/73348574?v=4" alt='img' width='40px' height='40px' /> [Pranavdhar](https://www.Github.com/iampranavdhar)
+1. <img src="public\assets\home.jpg" alt='img' width='40px' height='40px' /> [Mandefro](https://www.Github.com/mandeftro-abebaw)
 
 ## Note
 
