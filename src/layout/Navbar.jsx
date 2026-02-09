@@ -16,7 +16,7 @@ const navLinks = [
 export const Navbar = () =>{
     const [IsMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    return(<header  className="fixed top-0 left-0 right-0 bg-transparent py-5">
+    return(<header  className="fixed top-0 left-0 right-0 bg-transparent py-5 z-50">
         <nav className="container mx-auto px-6 flex items-center justify-between">
             <a href="#" className="text-xl font-bold tracking-light hover:text-primary">PM<span className="text-primary">.</span></a>
             {/*desktop nav */}   
