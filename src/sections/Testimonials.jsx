@@ -1,40 +1,42 @@
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useState } from "react";
 
-const testimonials = [
+
+   const testimonials = [
   {
     quote:
-      "Pedro is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
-    author: "Sarah Chen",
-    role: "CTO, Tech Innovators Inc.",
+      "Tewold is one of the most dedicated graduates I've studied with. His attention to detail and ability to understand complex concepts quickly truly impressed everyone in our class.",
+    author: "Tewold Marie",
+    role: "Software Enginnering Graduate",
     avatar:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+       "#",
   },
   {
     quote:
-      "Working with Pedro was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
-    author: "Michael Rodriguez",
-    role: "Product Manager, Digital Solutions",
+      "Working on projects with Bzuyew was a great experience. He always delivered on time and maintained high-quality standards in everything he did.",
+    author: "Bzuyew Semachew",
+    role: "Software Engineering Graduate",
     avatar:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+     "#",
   },
   {
     quote:
-      "Pedro's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
-    author: "Emily Watson",
-    role: "Engineering Lead, StartUp Labs",
+      "Yohanis demonstrated strong technical skills throughout our studies. His expertise in frontend technologies helped our team complete projects efficiently.",
+    author: "Yohanis Tamerat",
+    role: "Software Enginnering Graduate",
     avatar:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+      "#",
   },
   {
     quote:
-      "Not only is Pedro technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
-    author: "David Kim",
-    role: "CEO, Innovation Hub",
+      "Natnael is not only technically skilled but also a supportive team member. His communication and collaboration skills made group work much more effective.",
+    author: "Natnael Gelta",
+    role: "Software Enginnering Graduate",
     avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "#",
   },
 ];
+
 export const Testimonials = ()=>{
   const [activeIdx,setActiveIdx] =useState(0);
   const next =() =>{
@@ -66,7 +68,7 @@ export const Testimonials = ()=>{
                           </div>
                           <blockquote  className="text-xl md:text-2xl font-medium leading-relaxed mb-8 pt-4">"{testimonials[activeIdx].quote}"</blockquote>
                           <div className="flex items-center gap-4"> 
-                            <img src={testimonials[activeIdx].avatar}
+                            <img src={testimonials[activeIdx].avatar }
                             alt={testimonials[activeIdx].author} className="w-14 h-14 rounded-full object-cover ring-2 ring-primary/20"/>
                             <div className="">
                               <div className="font-semibold">{testimonials[activeIdx].author}</div>
